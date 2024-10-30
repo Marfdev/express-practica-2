@@ -96,9 +96,13 @@ el mayor cambio que recibio fue en cuanto a el manejo de los roles al momento de
 las vistas son 
 
 -[Entry](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/public/html/entry.html) Para el login y signup | asignado a la ruta "/signin"
+
 -[Home](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/public/html/home.html) La pagina base, donde podemos ver el mensaje de info publica | asignado a la ruta "/"
+
 -[User](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/public/html/user.html) Pagina de usuario, todo aquel que este logueado correctamente con un token podra ver el mensaje | asignado a la ruta "/user"
+
 -[Mod](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/public/html/mod.html) Pagina de moderador, solo aquellos con rol de admin o moderador podran ver el mensaje | asignado a la ruta "/mod"
+
 -[Admin](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/public/html/admin.html) Pagina de administrador, solo administradores podran ver el mensaje | asignado a la ruta "/admin"
 
 los permisos y autorizaciones de los mensajes estan definidas en las rutas de [testRoutes](https://bitbucket.org/uneatlantico/pw1_23-24_entrega2/src/manuel.rondon/app/routes/testRoutes.js)
